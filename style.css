@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	height: 100%;
+	font-size: 24;
+}
+
+html,
+body {
+	font-family: 'Rockwell';
+	font-weight: 700;
+}
+
+.nav {
+	display: flex;
+	position: fixed;
+	height: 50px;
+	background: #212121;
+	width: 100%;
+	flex-direction: row-reverse;
+	align-items: flex-end;
+}
+
+.nav a {
+	text-decoration: none;
+	display: flex;
+	color: #fafafa;
+	padding: 0px 20px;
+	align-items: center;
+}
+
+.nav a:visited {
+	color: #fafafa;
+}
+
+.nav a:hover {
+	background-color: #9e9e9e;
+}
+
+.home {
+	display: flex;
+	min-height: 100%;
+	align-items: center;
+	background: #0d0d0d;
+}
+
+.home_p {
+	display: flex;
+	color: aliceblue;
+	margin-top: 10%;
+	margin-left: 50px;
+	padding-right: 550px;
+	text-align: justify;
+	position: absolute;
+	height: 50%;
+	flex-direction: column;
+}
+
+.home_img {
+	display: flex;
+}
+
+.crusader {
+	display: flex;
+	min-height: 100%;
+	background: #f9a825;
+	align-items: center;
+}
+
+.crusader_img {
+	display: flex;
+}
+
+.crusader_p {
+	display: flex;
+	padding: 40px;
+	text-align: justify;
+	height: 50%;
+	flex-direction: column;
+}
+
+.crusader_p > h1 {
+	height: 20%;
+}
+
+.inquisitor {
+	display: flex;
+	min-height: 100%;
+	background: #b71c1c;
+	align-items: center;
+}
+
+.inquisitor_img {
+	display: flex;
+	order: 1;
+}
+
+.inquisitor_p {
+	display: flex;
+	padding: 40px;
+	margin-top: 20px;
+	text-align: justify;
+	height: 50%;
+	flex-direction: column;
+}
+
+.shaman {
+	display: flex;
+	min-height: 100%;
+	background: #448aff;
+	align-items: center;
+}
+
+.shaman_img {
+	display: flex;
+}
+
+.shaman_p {
+	display: flex;
+	padding: 40px;
+	margin-top: 20px;
+	text-align: justify;
+	height: 50%;
+	flex-direction: column;
+}
+
+.mistress {
+	display: flex;
+	min-height: 100%;
+	background: #4a148c;
+	align-items: center;
+}
+
+.mistress_img {
+	display: flex;
+	order: 1;
+}
+
+.mistress_p {
+	display: flex;
+	padding: 40px;
+	margin-top: 20px;
+	text-align: justify;
+	height: 50%;
+	flex-direction: column;
+}
