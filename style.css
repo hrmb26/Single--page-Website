@@ -52,7 +52,6 @@ html {
 .home_p {
 	display: flex;
 	color: aliceblue;
-	/* margin-top: 5%; */
 	margin-left: 50px;
 	padding-right: 500px;
 	text-align: justify;
