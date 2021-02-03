@@ -1,13 +1,19 @@
 * {
 	margin: 0;
 	height: 100%;
-	font-size: 24;
 }
 
-html,
-body {
-	font-family: 'Rockwell';
-	font-weight: 700;
+h1 {
+	font-family: 'Roboto Slab', serif;
+}
+
+p,
+a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 .nav {
@@ -46,13 +52,18 @@ body {
 .home_p {
 	display: flex;
 	color: aliceblue;
-	margin-top: 10%;
+	/* margin-top: 5%; */
 	margin-left: 50px;
-	padding-right: 550px;
+	padding-right: 500px;
 	text-align: justify;
 	position: absolute;
 	height: 50%;
 	flex-direction: column;
+	align-items: center;
+}
+
+.home_p > p {
+	font-size: 24px;
 }
 
 .home_img {
@@ -62,7 +73,10 @@ body {
 .crusader {
 	display: flex;
 	min-height: 100%;
-	background: #f9a825;
+	align-items: center;
+	background-image: url('/assets/img/1.webp');
+	background-size: cover;
+	flex-direction: row;
 	align-items: center;
 }
 
@@ -76,6 +90,9 @@ body {
 	text-align: justify;
 	height: 50%;
 	flex-direction: column;
+	background: rgba(0, 0, 0, 0.8);
+	color: whitesmoke;
+	font-size: 20px;
 }
 
 .crusader_p > h1 {
@@ -85,8 +102,9 @@ body {
 .inquisitor {
 	display: flex;
 	min-height: 100%;
-	background: #b71c1c;
 	align-items: center;
+	background-image: url('/assets/img/2.webp');
+	background-size: cover;
 }
 
 .inquisitor_img {
@@ -101,13 +119,21 @@ body {
 	text-align: justify;
 	height: 50%;
 	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: whitesmoke;
+	font-size: 20px;
+}
+
+.inquisitor_p > h1 {
+	height: 20%;
 }
 
 .shaman {
 	display: flex;
 	min-height: 100%;
-	background: #448aff;
 	align-items: center;
+	background-image: url('/assets/img/3.webp');
+	background-size: cover;
 }
 
 .shaman_img {
@@ -121,12 +147,20 @@ body {
 	text-align: justify;
 	height: 50%;
 	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: whitesmoke;
+	font-size: 20px;
+}
+
+.shaman_p > h1 {
+	height: 20%;
 }
 
 .mistress {
 	display: flex;
 	min-height: 100%;
-	background: #4a148c;
+	background-image: url('/assets/img/4.webp');
+	background-size: cover;
 	align-items: center;
 }
 
@@ -142,4 +176,11 @@ body {
 	text-align: justify;
 	height: 50%;
 	flex-direction: column;
+	color: whitesmoke;
+	background-color: rgba(0, 0, 0, 0.8);
+	font-size: 20px;
+}
+
+.mistress_p > h1 {
+	height: 20%;
 }
