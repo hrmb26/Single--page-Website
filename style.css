@@ -73,7 +73,7 @@ html {
 	display: flex;
 	min-height: 100%;
 	align-items: center;
-	background-image: url('./assets/img/1.webp');
+	background-image: url('../assets/img/1.webp');
 	background-size: cover;
 	flex-direction: row;
 	align-items: center;
@@ -102,7 +102,7 @@ html {
 	display: flex;
 	min-height: 100%;
 	align-items: center;
-	background-image: url('./assets/img/2.webp');
+	background-image: url('../assets/img/2.webp');
 	background-size: cover;
 }
 
@@ -131,7 +131,7 @@ html {
 	display: flex;
 	min-height: 100%;
 	align-items: center;
-	background-image: url('./assets/img/3.webp');
+	background-image: url('../assets/img/3.webp');
 	background-size: cover;
 }
 
@@ -158,7 +158,7 @@ html {
 .mistress {
 	display: flex;
 	min-height: 100%;
-	background-image: url('./assets/img/4.webp');
+	background-image: url('../assets/img/4.webp');
 	background-size: cover;
 	align-items: center;
 }
